@@ -15,6 +15,7 @@ model: any = {};
   }
 
   register() {
+    debugger;
     this.authService.register(this.model).subscribe(() => {
       console.log('registration successful');
     }, error => {

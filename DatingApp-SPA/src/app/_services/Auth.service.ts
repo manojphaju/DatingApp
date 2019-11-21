@@ -21,6 +21,7 @@ login(model: any) {
 }
 
 register(model: any) {
+  debugger;
   return this.http.post(this.baseUrl + 'register', model);
 }
 }

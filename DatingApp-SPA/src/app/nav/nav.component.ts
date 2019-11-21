@@ -18,7 +18,7 @@ model: any = {};
       console.log('Logged in Successful');
     },
     error => {
-      console.log('Failed to loggedin');
+      console.log(error);
     });
   }
 
