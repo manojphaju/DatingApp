@@ -1,0 +1,4 @@
+alertifyjs for toaster
+auth0 angular jwt-for jwt token validation
+Ngx bootstrap
+bootswatch for theme
